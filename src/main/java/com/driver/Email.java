@@ -49,7 +49,7 @@ public class Email {
                 if ((i>='0' && i<='9') && !(i>='a' && i<='z') && !(i>='A' && i<='Z') )
                     specialChar = true;
             }
-            if((n>8) && hasLower && hasDigit && hasUpper && specialChar) return true;
+            if((n>=8) && hasLower && hasDigit && hasUpper && specialChar) return true;
             return false;
         }
 }
